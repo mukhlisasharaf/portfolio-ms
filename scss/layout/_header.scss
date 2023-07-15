@@ -1,0 +1,39 @@
+// SITE-HEADER
+.site-header {
+ padding-top: 40px;
+
+ &__container {
+  display: flex;
+  align-items: center;
+ }
+}
+
+.site-logo {
+ width: 234px;
+ height: 32px;
+ transition: opacity 0.2s;
+ &:hover {
+  opacity: 0.8;
+ }
+
+ &:active {
+  opacity: 0.6;
+ }
+}
+
+.socials {
+ margin-left: auto;
+ display: flex;
+ gap: 32px;
+
+ &__link {
+  transition: opacity 0.2s;
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+   opacity: 0.8;
+  }
+ }
+}

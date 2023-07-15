@@ -1,0 +1,38 @@
+// COLORS
+ $dark: #151515;
+ $green: #4EE1A0;
+ $light-dark: #242424;
+ $gray: #d9d9d9;
+ $white: #FFFFFF;
+
+$main-font-family: "Space Grotesk", sans-serif;
+
+@mixin header-xl {
+ font-size: 8.8rem;
+ line-height: 8.8rem;
+ letter-spacing: -2.5px;
+ font-weight: 700;
+ $main-font-family: "Space Grotesk", sans-serif;
+}
+
+@mixin main-l {
+ font-size: 4.8rem;
+ line-height: 5.6rem;
+ letter-spacing: -1.5px;
+ font-weight: 700;
+ $main-font-family: "Space Grotesk", sans-serif;
+}
+
+@mixin projects-m {
+ font-size: 2.4rem;
+ line-height: 3.2rem;
+ font-weight: 700;
+ $main-font-family: "Space Grotesk", sans-serif;
+}
+
+@mixin text{
+ font-size: 1.8rem;
+ line-height: 2.8rem;
+ font-weight: 500;
+ color: $gray;
+}

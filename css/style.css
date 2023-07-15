@@ -306,4 +306,150 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0.2rem dashed white;
+  outline-offset: 0.2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+img {
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #151515;
+  color: #FFFFFF;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* space-grotesk-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/space-grotesk-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* space-grotesk-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/space-grotesk-v15-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* space-grotesk-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/space-grotesk-v15-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* space-grotesk-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/space-grotesk-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #FFFFFF;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  border-bottom: 2px solid #4EE1A0;
+  color: #FFFFFF;
+  transition: color 0.2s;
+}
+.button:hover {
+  color: #4EE1A0;
+}
+.button:active {
+  opacity: 0.8;
+}
+
+.site-header {
+  padding-top: 40px;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  width: 234px;
+  height: 32px;
+  transition: opacity 0.2s;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.socials {
+  margin-left: auto;
+  display: flex;
+  gap: 32px;
+}
+.socials__link {
+  transition: opacity 0.2s;
+}
+.socials__link:hover {
+  opacity: 0.8;
+}
+.socials__link:active {
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
