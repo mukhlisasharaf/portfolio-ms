@@ -1,0 +1,51 @@
+// HERO
+.hero {
+ padding-top: 12.7rem;
+ background-image: url(/images/svg/bg-lines.svg);
+ background-repeat: no-repeat;
+ background-position: left -26% top 16%;
+}
+
+.hero__container {
+ display: flex;
+ // position: relative;
+}
+
+// IMAGES
+.hero__bg-img {
+ position: absolute;
+ z-index: -1;
+}
+
+.hero__right-img {
+ position: absolute;
+ z-index: -1;
+ right: 6rem;
+ top: -1rem;
+}
+
+.oval {
+ position: absolute;
+ bottom: 5rem;
+ right: 38rem;
+}
+
+.description {
+ width: 710px;
+ &__title {
+  position: relative;
+  @include header-xl;
+
+  span{
+   border-bottom: solid 6px $green;
+  }
+ }
+}
+
+.description__text {
+ width: 445px;
+ padding-top: 4.3rem;
+ p {
+  @include text;
+ }
+}
