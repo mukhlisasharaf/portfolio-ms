@@ -406,6 +406,7 @@ body {
 .button {
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
   font-size: 1.6rem;
   line-height: 2.6rem;
   border-bottom: 2px solid #4EE1A0;
@@ -523,4 +524,40 @@ body {
   line-height: 2.8rem;
   font-weight: 500;
   color: #d9d9d9;
+}
+
+.languages {
+  padding-top: 200px;
+  background-image: url(/images/svg/bg-lines.svg);
+  background-repeat: no-repeat;
+  background-position: right -30% top 16%;
+}
+
+.languages__container {
+  border-top: 1px solid #FFFFFF;
+}
+
+.languages__list {
+  margin-top: 7.2rem;
+  display: grid;
+  grid-template-columns: 178px 165px 229px;
+  gap: 58px 210px;
+}
+
+.languages__wrapper dt {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: -1.5px;
+  font-weight: 700;
+}
+.languages__wrapper dd {
+  padding-top: 1.4rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  color: #d9d9d9;
+}
+
+.projects__list {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

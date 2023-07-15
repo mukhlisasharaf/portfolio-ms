@@ -49,3 +49,67 @@
   @include text;
  }
 }
+
+// languages
+.languages {
+ padding-top: 200px;
+ background-image: url(/images/svg/bg-lines.svg);
+ background-repeat: no-repeat;
+ background-position: right -30% top 16%;
+}
+
+.languages__container {
+ border-top: 1px solid $white;
+}
+
+.languages__list { 
+ margin-top: 7.2rem;
+ display: grid;
+ grid-template-columns: 178px 165px 229px;
+ gap: 58px 210px;
+}
+
+.languages__wrapper {
+ dt {
+  @include main-l;
+ }
+
+ dd {
+  padding-top: 1.4rem;
+  @include text;
+ }
+}
+
+.languages__title {
+}
+.languages__description {
+}
+
+
+// PROJECTS
+.projects {
+}
+
+.projects__container {
+
+}
+
+.projects__title {
+}
+.button__locat {
+}
+.button {
+}
+
+.projects__list {
+ display: flex;
+
+ a {
+
+ }
+}
+
+.projects__description {
+}
+.flex {
+}
