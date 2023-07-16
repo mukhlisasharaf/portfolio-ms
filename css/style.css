@@ -472,6 +472,45 @@ body {
     margin-left: 0;
   }
 }
+.footer {
+  margin-top: 31.1rem;
+  padding-bottom: 10rem;
+  background-color: #242424;
+}
+.footer__container {
+  border-top: 1px solid #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.site-logo {
+  width: 234px;
+  height: 25px;
+  transition: opacity 0.2s;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.socials {
+  margin-left: auto;
+  display: flex;
+  gap: 32px;
+}
+.socials__link {
+  transition: opacity 0.2s;
+}
+.socials__link:hover {
+  opacity: 0.8;
+}
+.socials__link:active {
+  opacity: 0.8;
+}
+
 .hero {
   padding-top: 12.7rem;
   background-image: url(/images/svg/bg-lines.svg);
