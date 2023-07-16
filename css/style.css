@@ -671,6 +671,7 @@ body {
 .card__content a {
   font-size: 1.6rem;
   color: #FFFFFF;
+  font-weight: 700;
   line-height: 2.6rem;
   text-transform: uppercase;
   border-bottom: 2px solid #4EE1A0;
