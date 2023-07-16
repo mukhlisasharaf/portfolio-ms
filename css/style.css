@@ -674,6 +674,10 @@ body {
   line-height: 2.6rem;
   text-transform: uppercase;
   border-bottom: 2px solid #4EE1A0;
+  transition: color 0.2s;
+}
+.card__content a:hover {
+  color: #4EE1A0;
 }
 
 .card__code {
@@ -699,6 +703,7 @@ body {
   background-image: url(/images/svg/bg-lines.svg);
   background-repeat: no-repeat;
   background-position: bottom -40% left -41%;
+  background-color: #242424;
 }
 .contact__container {
   display: flex;
