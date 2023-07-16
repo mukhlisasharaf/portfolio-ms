@@ -188,3 +188,74 @@
  z-index: 1;
 }
 
+
+// CONTACT
+.contact {
+ padding-top: 8.4rem;
+ background-image: url(/images/svg/bg-lines.svg);
+ background-repeat: no-repeat;
+ background-position: bottom -40% left -41%;
+
+ &__container {
+  display: flex;
+ }
+}
+
+.contact__description {
+ width: 44.5rem;
+ height: 20.8rem;
+ h3 {
+  @include header-xl;
+ }
+
+ p {
+  padding-top: 3.6rem;
+  @include text;
+ }
+}
+
+
+
+.form{
+ position:relative;
+ width: 445px;
+ height: 107px;
+ margin-left: auto;
+
+ a {
+  margin-left: 70%;
+  margin-top: 3.2rem;
+  margin-right: 0;
+ }
+}
+
+input{
+ width:100%;
+ padding:10px;
+ padding-bottom: 1.6rem;
+ margin-left: 2.4rem;
+ box-sizing:border-box;
+ background:none;
+ outline:none;
+ resize:none;
+ border:0;
+ border-bottom: 1px solid $white;
+}
+
+.massage {
+ padding-bottom: 8.1rem;
+}
+
+p:before{
+ content:attr(type);
+ display:block;
+ margin:28px 0 0;
+ font-size:14px;
+ color:#5a5a5a;
+}
+
+
+
+
+
+
